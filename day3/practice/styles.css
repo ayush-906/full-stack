@@ -1,0 +1,18 @@
+*{
+   font-family: 'Times New Roman', Times, serif;
+}
+#header{
+    height: 50px;
+    align-content: center;
+    background-color: lightblue;
+    text-align: center; 
+    text-transform: uppercase;
+}
+#outside{
+  font-size: 25px;
+  background-color: burlywood;
+}
+#inside{
+    font-size: 10px;
+    background-color: cadetblue;
+}

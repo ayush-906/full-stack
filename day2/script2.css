@@ -1,0 +1,28 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+
+} */
+#header{
+    color: blue;
+    background-color: brown;
+}
+
+.box1{
+    color: blueviolet;
+    background-color: beige;
+      width: 200px;
+  height: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+    
+}
+.box2
+{
+    color: brown;
+    background-color: blueviolet;
+  width: 200px;
+    height: 100px;
+
+}

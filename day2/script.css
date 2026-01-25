@@ -1,0 +1,71 @@
+/* DAY ONE OF UNNDERSTANDING CSS */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: red;
+}
+#heading{
+    color: burlywood;
+}
+
+/* .div ,#first,#second{
+    color: blueviolet;
+    font-size: larger;
+} */
+
+
+#first{
+    color: black; background: red;
+    height: 50px;
+     width: 50px;
+}
+#second{
+    color: black;background: green;
+     height: 50px;
+     width: 50px;
+}
+
+#third{
+    color: black;background: blue;
+}
+
+
+/* box sizing */
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    color: black;
+    
+}
+#div1{
+    background: red;
+}
+#div2{
+    background: 
+    green;
+}
+#div3{
+    background: yellow;
+}
+#icon{
+    background-image: url(Myntra-Logo-2026.png);
+    height: 70px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+#div{
+    background-color: gray;
+    color: aquamarine;
+     
+   
+}
+main{
+    background-color: blueviolet;
+    
+}
