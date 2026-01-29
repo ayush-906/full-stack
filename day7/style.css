@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.box{
+
+    background-color: antiquewhite;
+    height: 80px;
+    width: 100vw;
+}
+
+.header{
+    justify-content:center;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+nav{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    /* height: 80px; */
+    /* background-color: blueviolet; */
+}
+
+#button{
+    height: 35px;
+    width: 110px;
+    border-radius: 5px;
+    margin: 20px;
+    background-color: bisque;
+    border-color: bisque;
+
+}
+
+#button1{
+    height: 35px;
+    width: 160px;
+    border-radius: 9px;
+    margin: 20px;
+    background-color: ;
+}
