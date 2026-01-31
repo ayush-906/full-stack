@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+    background-color: burlywood;
+}
+.div{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    justify-content: space-evenly;
+   
+}
+
+.button{
+    height: 40px;
+    width: 150px;
+    margin: 20px;
+    background-color: burlywood;
+    border-radius: 8px;
+     text-transform: uppercase;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    width: 100vw;
+    text-transform: uppercase;
+    
+}
