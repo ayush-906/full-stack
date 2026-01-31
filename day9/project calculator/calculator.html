@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>calculator</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+   <div class="div"> 
+   <!-- display -->
+    <input type="text" class="display">
+
+    <!-- button -->
+    <button class="button" onclick="displayscreen = '' ;         document.querySelector('.display').value=displayscreen;">C</button>
+    <button class="button"onclick="displayscreen = displayscreen + '1' ;document.querySelector('.display').value=displayscreen;" >1</button>
+    <button class="button" onclick="displayscreen = displayscreen + '2' ;document.querySelector('.display').value=displayscreen;">2</button>
+    <button class="button" onclick="displayscreen = displayscreen + '+' ;document.querySelector('.display').value=displayscreen;">+</button> 
+    <button class="button" onclick="displayscreen = displayscreen + '3' ;document.querySelector('.display').value=displayscreen;">3</button>
+    <button class="button" onclick="displayscreen = displayscreen + '4' ;document.querySelector('.display').value=displayscreen;">4</button>
+    <button class="button" onclick="displayscreen = displayscreen + '*' ;document.querySelector('.display').value=displayscreen;">*</button>
+    <button class="button" onclick="displayscreen = displayscreen + '5' ;document.querySelector('.display').value=displayscreen;">5</button>
+    <button class="button" onclick="displayscreen = displayscreen + '6' ;document.querySelector('.display').value=displayscreen;">6</button>
+    <button class="button" onclick="displayscreen = displayscreen + '/' ;document.querySelector('.display').value=displayscreen;">/</button>
+    <button class="button" onclick="displayscreen = displayscreen + '7' ;document.querySelector('.display').value=displayscreen;">7</button>
+    <button class="button"onclick="displayscreen = displayscreen + '8' ;document.querySelector('.display').value=displayscreen;" >8</button>
+
+    <button class="button" onclick=" ;
+    // takes input from screen and calculate result
+    let result = eval(displayscreen );
+
+    // now updated result
+
+    displayscreen = result;
+
+    document.querySelector('.display').value =  displayscreen;
+
+    
+    document.querySelector('.display').value=displayscreen;">=</button>
+    <button class="button" onclick="displayscreen = displayscreen + '9' ;document.querySelector('.display').value=displayscreen;">9</button> 
+    <button class="button" onclick="displayscreen = displayscreen +'0' ;document.querySelector('.display').value=displayscreen;">0</button>
+    <button class="button" onclick="displayscreen = displayscreen + '.' ;document.querySelector('.display').value=displayscreen;">.</button> 
+
+<!-- 
+   </div>
+   <!-- javascript -->
+    
+   <script>
+
+    // variable to store and update result
+
+    let displayscreen = "";
+
+    // select the value in display after click store and show new value 
+
+    document.querySelector('.display').value=displayscreen;
+    
+
+   </script> 
+
+</body>
+</html>
